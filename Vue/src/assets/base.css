@@ -1,0 +1,147 @@
+/*IMPORTER LES FONTS POPPINS ET GLORIA HALLELUJAH*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+/*DEFINITION DES VARIABLES CSS POUR LES COULEURS ET LES FONTS*/
+:root{
+  --black: #0E0E0E;
+  --green: #64C56D;
+  --yellow: #F6C667;
+  --white: #FBFBFB;
+  --red: #F10000;
+  --fontGloria: "Gloria Hallelujah", cursive;
+  --fontPoppins: "Poppins", sans-serif;
+}
+
+html,body{
+  margin: 0;
+  background-color: var(--white);
+}
+
+*{
+  font-family: var(--fontPoppins);
+  color: var(--black);
+}
+
+h1{
+  font-family: var(--fontGloria);
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+h2{
+  font-family: var(--fontPoppins);
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+h3{
+  font-family: var(--fontPoppins);
+  color: var(--white);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h4{
+  font-family: var(--fontPoppins);
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  font-weight: 400;
+}
+
+.welcome{
+  background-color: var(--yellow);
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  font-size: 1rem;
+  text-align: center;
+  margin: 2rem;
+}
+.logo{
+  margin-top: 2rem;
+display: flex;
+justify-content: center;
+margin-bottom: 2rem;
+}
+
+form, .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+label{
+  font-size: 1.3rem;
+}
+
+input{
+  font-size: 1rem;
+  height: 2rem;
+  width: 12rem;
+  padding: 0.5rem;
+  border: 1px solid var(--black);
+  border-radius: 5px;
+}
+
+button, .button{
+  width: 12.25rem;
+  height: 2.5rem;
+  background-color: #64c56d;
+  color: #fbfbfb;
+  font-size: 1.25rem;
+  text-decoration: none;
+  border-radius: 1rem;
+  border: none;
+  margin-bottom: 3rem;;
+}
+
+.deleteBtn{
+  background-color: var(--red);
+  margin-top: 1rem;
+  height: 3.8rem;
+}
+
+span {
+  color: var(--red);
+  margin: 0;
+}
+
+.green{
+  color: var(--green);
+
+}
+.errorMsg{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: var(--red);
+  font-size: 1.2rem;
+  text-align: center;
+
+
+}
+
+.error {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+a{
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "kayu-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
