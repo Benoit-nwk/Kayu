@@ -38,6 +38,15 @@ On peut actuellement s'y inscrire, se connecter, supprimer son compte, voir si n
 4. Utilisez la commande ``php artisan serve`` pour lancer le projet Laravel.
 - L'application est prête à être utilisée.
 
+
+# Illustrations
+
+![Log-In](./readme-images/kayu-login.png "Log-In") 
+![Register](./readme-images/kayu-signin.png "Register") 
+![NotFound](./readme-images/kayu-404.png "NotFound") 
+![AccessDenied](./readme-images/kayu-accessdenied.png "AccessDenied") S
+
+
 ## Un problème?
 
 Kayu à été développée il y a un certain temps. Elle pourrais malheureusement ne plus fonctionner...
